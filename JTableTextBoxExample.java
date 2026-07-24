@@ -45,18 +45,24 @@ public class JTableTextBoxExample extends JFrame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        model.addRow(new Object[]{
-            txtId.getText(),
-            txtName.getText(),
-            txtAge.getText()
-        });
 
-        // Clear text fields
-        txtId.setText("");
-        txtName.setText("");
-        txtAge.setText("");
+    if(txtId.getText().isEmpty() || txtName.getText().isEmpty() || txtAge.getText().isEmpty())
+    {
+        JOptionPane.showMessageDialog(this, "Please fill all fields");
+        return;
     }
 
+    model.addRow(new Object[]{
+        txtId.getText(),
+        txtName.getText(),
+        txtAge.getText()
+    });
+
+    // Clear text fields
+    txtId.setText("");
+    txtName.setText("");
+    txtAge.setText("");
+}
     public static void main(String[] args) {
         new JTableTextBoxExample();
     }
