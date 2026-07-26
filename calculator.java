@@ -36,7 +36,7 @@ public class calculator extends JFrame implements ActionListener {
         sub = new JButton("Subtract");
         sub.setBounds(120, 150, 80, 40);
         mul = new JButton("Multiply");
-        mul.setBounds(210, 150, 90, 40);
+        mul.setBounds(210, 150, 80, 40);
         div = new JButton("Divide");
         div.setBounds(30, 200, 80, 40);
 
