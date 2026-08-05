@@ -1,0 +1,1 @@
+Hello this buffered stream class example where we do both read and write example

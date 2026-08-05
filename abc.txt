@@ -1,0 +1,1 @@
+Hello this the example of characterstream class where we do example of read and write
