@@ -1,0 +1,6 @@
+/**
+ * preparedStatement
+ */
+public class preparedStatement {
+
+}
