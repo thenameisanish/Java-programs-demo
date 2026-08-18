@@ -1,3 +1,4 @@
+
 import java.rmi.*;
 
 public interface Calc extends Remote {

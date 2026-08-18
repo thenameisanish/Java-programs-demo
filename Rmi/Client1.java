@@ -1,4 +1,3 @@
-
 import java.rmi.registry.*;
 import java.util.Scanner;
 

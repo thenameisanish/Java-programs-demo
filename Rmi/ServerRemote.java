@@ -1,4 +1,5 @@
 
+
 import java.rmi.registry.*;
 
 public class ServerRemote {
